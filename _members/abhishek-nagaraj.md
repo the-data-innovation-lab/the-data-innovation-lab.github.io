@@ -1,7 +1,7 @@
 ---
 name: Abhishek Nagaraj
 image: images/member_photos/abhishek.jpg
-role: pi
+role: director
 affiliation: University of California, Berkeley
 aliases:
   - Abhishek Nagaraj
