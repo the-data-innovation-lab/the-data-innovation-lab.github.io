@@ -1,6 +1,6 @@
 
 # the-data-innovation-lab's Website
 
-Visit **[website url](#)** 🚀
+Visit **[the-data-innovation-lab.github.io](https://the-data-innovation-lab.github.io)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
