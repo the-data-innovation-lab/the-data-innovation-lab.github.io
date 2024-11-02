@@ -11,12 +11,8 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@the-data-innovation-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: admin@thedatainnovationlab.com
   github: the-data-innovation-lab
-  twitter: the-data-innovation-lab
-  youtube: the-data-innovation-lab
 
 ### jekyll settings
 

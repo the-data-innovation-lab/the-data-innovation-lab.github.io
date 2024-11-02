@@ -3,6 +3,7 @@ name: Cecil-Francis Brenninkmeijer
 image: images/member_photos/cecil.jpg
 description: Lab Manager
 role: pre-doc
+affiliation: University of California, Berkeley
 links:
   email: cmb372@georgetown.edu
 ---

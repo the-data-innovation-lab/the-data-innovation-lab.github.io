@@ -1,7 +1,7 @@
 ---
 ---
 
-# the-data-innovation-lab's Website
+# About The Data Innovation Lab
 
   Established in July 2021, the Data Innovation Lab serves as an integrated environment 
   for research in the area of innovation economics and management. We are particularly 
@@ -94,7 +94,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/our-team.jpg"
   link="team"
   title="Our Team"
   text=text
