@@ -94,7 +94,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/our-team.jpg"
+  image="images/team_photos/our-team.jpg"
   link="team"
   title="Our Team"
   text=text
