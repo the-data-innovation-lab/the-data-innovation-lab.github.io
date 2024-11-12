@@ -31,8 +31,7 @@
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Our research focuses on how digitization and data access transform knowledge production and innovation.
 {%
   include button.html
   link="research"
@@ -46,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/our-research.jpeg"
   link="research"
   title="Our Research"
   text=text
@@ -54,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We have projects ranging from the impact of satellite imagery on discovery and entrepreneurship in the gold mining industry to the impact of online review listings on business performance in the restaurant industry.
 
 {%
   include button.html
@@ -69,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/our-projects.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -79,7 +78,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a team of researchers, students, and professionals who are passionate about using data to drive innovation and improve lives.
 
 {%
   include button.html
