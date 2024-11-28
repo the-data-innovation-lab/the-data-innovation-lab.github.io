@@ -1,4 +1,8 @@
 ---
+title: Home
+nav:
+  order: 0
+  tooltip: Home
 ---
 
 # About The Data Innovation Lab
@@ -51,30 +55,6 @@ Our research focuses on how digitization and data access transform knowledge pro
   text=text
 %}
 
-{% capture text %}
-
-We have projects ranging from the impact of satellite imagery on discovery and entrepreneurship in the gold mining industry to the impact of online review listings on business performance in the restaurant industry.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/our-projects.png"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
 
 {% capture text %}
 
@@ -95,6 +75,7 @@ We are a team of researchers, students, and professionals who are passionate abo
   include feature.html
   image="images/team_photos/our-team.jpg"
   link="team"
+  flip=true
   title="Our Team"
   text=text
 %}
