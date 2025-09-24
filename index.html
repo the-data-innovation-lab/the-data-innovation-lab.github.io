@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Innovation and AI Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="logos/DIAL_logo_long.png" alt="Data Innovation and AI Lab" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+                <li><a href="research.html" class="nav__link">Research</a></li>
+                <li><a href="team.html" class="nav__link">Team</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle">☰</button>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__logo-section">
+                <img src="images/DIAL-logo-(PNG).png" alt="Data Innovation and AI Lab Logo" class="header__logo header__logo--large">
+            </div>
+            <p class="header__subtitle">Understanding the implications of big data and AI technologies for the economy</p>
+            <p class="header__description">
+                We are focused on understanding the impact of AI and big data technologies on innovation, creativity, and productivity.
+                Our research explores how these transformative technologies are reshaping economic landscapes and driving new forms of value creation.
+            </p>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section section--gray">
+            <div class="container">
+                <h2 class="section__title">About Our Lab</h2>
+                <div class="section__content">
+                    <p>
+                        The Data Innovation and AI Lab is a collaborative research initiative based at UC Berkeley (Haas School of Business)
+                        and the University of Pennsylvania (Wharton School). Co-directed by Abhishek Nagaraj and Matteo Tranchero,
+                        our lab brings together researchers from economics, computer science, and business to study the profound
+                        impact of artificial intelligence and big data on economic systems.
+                    </p>
+                    <p class="mt-2">
+                        Our interdisciplinary approach combines rigorous economic analysis with cutting-edge data science methods
+                        to understand how AI technologies are transforming industries, labor markets, and innovation ecosystems.
+                        We work closely with industry partners, policymakers, and academic institutions to ensure our research
+                        has real-world impact and contributes to evidence-based decision making.
+                    </p>
+
+                    <div class="photo-carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-slides" id="carousel-slides">
+                                <div class="carousel-slide active">
+                                    <img src="images/lab-photo-7.jpg" alt="Lab team photo" class="carousel-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/lab-photo-1.jpg" alt="Lab team meeting" class="carousel-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/lab-photo-2.jpg" alt="Lab group photo" class="carousel-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/lab-photo-3.jpg" alt="Research presentation" class="carousel-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/lab-photo-4.jpg" alt="Lab workshop" class="carousel-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/lab-photo-5.jpg" alt="Team lunch" class="carousel-image">
+                                </div>
+                                <div class="carousel-slide">
+                                    <img src="images/lab-photo-6.jpg" alt="Conference presentation" class="carousel-image">
+                                </div>
+                            </div>
+                            <button class="carousel-btn carousel-btn--prev" onclick="changeSlide(-1)">‹</button>
+                            <button class="carousel-btn carousel-btn--next" onclick="changeSlide(1)">›</button>
+                            <div class="carousel-dots">
+                                <span class="carousel-dot active" onclick="currentSlide(1)"></span>
+                                <span class="carousel-dot" onclick="currentSlide(2)"></span>
+                                <span class="carousel-dot" onclick="currentSlide(3)"></span>
+                                <span class="carousel-dot" onclick="currentSlide(4)"></span>
+                                <span class="carousel-dot" onclick="currentSlide(5)"></span>
+                                <span class="carousel-dot" onclick="currentSlide(6)"></span>
+                                <span class="carousel-dot" onclick="currentSlide(7)"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Research Focus Areas</h2>
+                <div class="section__content">
+                    <div class="team-grid">
+                        <div class="team-card">
+                            <h3 class="team-card__name">Data Access & Scientific Innovation</h3>
+                            <p class="team-card__bio">
+                                How data availability and access shape research processes, scientific discovery,
+                                and knowledge production across disciplines.
+                            </p>
+                        </div>
+                        <div class="team-card">
+                            <h3 class="team-card__name">AI & Large Language Models</h3>
+                            <p class="team-card__bio">
+                                Understanding the capabilities, limitations, and implications of artificial intelligence
+                                for knowledge creation and innovation processes.
+                            </p>
+                        </div>
+                        <div class="team-card">
+                            <h3 class="team-card__name">Digital Platforms & Communities</h3>
+                            <p class="team-card__bio">
+                                Examining how digital platforms and online communities facilitate knowledge sharing,
+                                collaboration, and innovation.
+                            </p>
+                        </div>
+                        <div class="team-card">
+                            <h3 class="team-card__name">Innovation Mapping & Geography</h3>
+                            <p class="team-card__bio">
+                                Spatial dimensions of innovation, including geographic proximity, location-based resources,
+                                and regional innovation systems.
+                            </p>
+                        </div>
+                        <div class="team-card">
+                            <h3 class="team-card__name">Intellectual Property & Copyright</h3>
+                            <p class="team-card__bio">
+                                The role of intellectual property rights and legal frameworks in shaping innovation,
+                                creativity, and knowledge diffusion.
+                            </p>
+                        </div>
+                        <div class="team-card">
+                            <h3 class="team-card__name">Pharmaceutical & Health Innovation</h3>
+                            <p class="team-card__bio">
+                                Data-driven approaches to drug discovery, pharmaceutical innovation, and health research
+                                using large-scale biomedical datasets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--gray">
+            <div class="container">
+                <div class="logo-grid">
+                    <div class="logo-item">
+                        <img src="images/ucb.png" alt="UC Berkeley Haas School of Business Logo">
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/penn.webp" alt="University of Pennsylvania Wharton School Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Funders</h2>
+                <div class="logo-grid">
+                    <div class="logo-item">
+                        <img src="images/nih.jpg" alt="NIH - National Institutes of Health">
+                        <h3>NIH</h3>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/noaa.jpg" alt="NOAA - National Oceanic and Atmospheric Administration">
+                        <h3>NOAA</h3>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/sloan.jpg" alt="Sloan Foundation">
+                        <h3>Sloan Foundation</h3>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/mack.jpg" alt="Mack Institute (Wharton)">
+                        <h3>Mack Institute</h3>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/fisher.jpg" alt="Fisher Center for Business Analytics">
+                        <h3>Fisher Center for Business Analytics</h3>
+                    </div>
+                    <div class="logo-item">
+                        <img src="images/ritaallen.jpg" alt="Rita Allen Foundation">
+                        <h3>Rita Allen Foundation</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>UC Berkeley (Haas)</h3>
+                    <p>Berkeley, CA 94720</p>
+                </div>
+                <div class="footer__section">
+                    <h3>University of Pennsylvania (Wharton)</h3>
+                    <p>Philadelphia, PA 19104</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:data-innovation-lab@berkeley.edu">data-innovation-lab@berkeley.edu</a></p>
+                </div>
+            </div>
+            <p>&copy; 2024 Data Innovation and AI Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

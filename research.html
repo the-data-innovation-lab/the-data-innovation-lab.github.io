@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Data Innovation and AI Lab</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="logos/DIAL_logo_long.png" alt="Data Innovation and AI Lab" class="nav__logo-img">
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="research.html" class="nav__link nav__link--active">Research</a></li>
+                <li><a href="team.html" class="nav__link">Team</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle">☰</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section" style="padding-top: 6rem; padding-bottom: 3rem;">
+            <div class="container">
+                <h1 class="section__title">Research Themes</h1>
+                <p class="hero-subtitle">Our interdisciplinary research spans six interconnected domains, investigating how data technologies and artificial intelligence are reshaping innovation, creativity, and economic systems. From data access and scientific discovery to the economics of digital platforms and pharmaceutical innovation, we examine the profound implications of the data revolution for society.</p>
+            </div>
+        </section>
+
+        <section class="research-themes" style="padding-top: 2rem;">
+            <div class="container">
+
+                <!-- Theme 1: Data Access and Scientific Innovation -->
+                <div class="research-theme">
+                    <h2 class="theme-header" onclick="toggleTheme(this)">Data Access and Scientific Innovation <span class="toggle-icon">+</span></h2>
+                    <p class="theme-description">Our research in this area examines how data availability and access fundamentally shape research processes, scientific discovery, and knowledge production across disciplines. We investigate the barriers and facilitators to data access, studying how restricted access to confidential microdata affects the scope and quality of economic research. Our work explores the democratizing effects of improved data access on scientific participation, examining how opening data repositories can diversify the researcher community and accelerate scientific progress. We also analyze the adoption patterns of new data sources and their diffusion through academic communities, providing insights into how data infrastructure investments can maximize scientific impact.</p>
+                    <div class="theme-content" style="display: none;">
+                        <div class="papers-section">
+                            <h3>Published Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.matteotranchero.com/pdf/Nagaraj_et_al_2025_HDSR.pdf" target="_blank">Restricted-Access Data in Economic Research: Adoption, Diffusion, and Impact</a></h4>
+                            <p class="authors">Fernando Stipanicic, Matteo Tranchero, and Abhishek Nagaraj</p>
+                            <p class="journal">Harvard Data Science Review (forthcoming)</p>
+                        </div>
+
+                        <div class="publication">
+                            <h4><a href="https://www.nber.org/books-and-chapters/data-privacy-protection-and-conduct-applied-research-methods-approaches-and-their-consequences/importance-confidential-microdata-economic-research" target="_blank">The Importance of Confidential Microdata for Economic Research</a></h4>
+                            <p class="authors">Abhishek Nagaraj, Fernando Stipanicic, and Matteo Tranchero</p>
+                            <p class="journal">Data Privacy Protection and the Conduct of Applied Research (forthcoming)</p>
+                        </div>
+
+                        <div class="publication">
+                            <h4><a href="https://www.pnas.org/doi/10.1073/pnas.2001682117" target="_blank">Improving data access democratizes and diversifies science</a></h4>
+                            <p class="authors">Abhishek Nagaraj, Esther Shears, and Mathijs de Vaan</p>
+                            <p class="journal">Proceedings of the National Academy of Sciences (2020)</p>
+                        </div>
+                    </div>
+
+                    <div class="papers-section">
+                        <h3>Working Papers</h3>
+                        <div class="publication">
+                            <h4><a href="https://www.nber.org/papers/w31372" target="_blank">How Does Data Access Shape Science? Evidence from the Impact of U.S. Census's Research Data Centers on Economics Research</a></h4>
+                            <p class="authors">Abhishek Nagaraj and Matteo Tranchero</p>
+                            <p class="status">Under Review</p>
+                        </div>
+
+                        <div class="publication">
+                            <h4><a href="https://www.nber.org/papers/w32401" target="_blank">The Streetlight Effect in Data-Driven Exploration</a></h4>
+                            <p class="authors">Johannes Hoelzemann, Gustavo Manso, Abhishek Nagaraj, and Matteo Tranchero</p>
+                            <p class="status">Under Review</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Theme 2: AI and Large Language Models -->
+                <div class="research-theme">
+                    <h2 class="theme-header" onclick="toggleTheme(this)">AI and Large Language Models <span class="toggle-icon">+</span></h2>
+                    <p class="theme-description">This research stream focuses on understanding the capabilities, limitations, and broader implications of artificial intelligence for knowledge creation, scientific research, and innovation processes. We examine how large language models and other AI technologies are transforming research methodologies, from hypothesis generation to data analysis and theory development. Our work investigates the competitive dynamics in the AI industry, analyzing how openness and control mechanisms affect innovation trajectories. We also study the economic value of data in AI systems, exploring how different data sources contribute to model performance and the implications for data markets and intellectual property rights.</p>
+                    <div class="theme-content" style="display: none;">
+                        <div class="papers-section">
+                            <h3>Published Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.nber.org/papers/w32474" target="_blank">Old Moats for New Models: Openness, Control, and Competition in Generative AI</a></h4>
+                                <p class="authors">Abhishek Nagaraj, Pierre Azoulay, and Joshua Krieger</p>
+                                <p class="journal">Entrepreneurship and Innovation Policy and the Economy (2024)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://hdsr.mitpress.mit.edu/pub/c84g7tz9/release/2" target="_blank">A Mapping Lens to Estimating Data Value</a></h4>
+                                <p class="authors">Abhishek Nagaraj</p>
+                                <p class="journal">Harvard Data Science Review (2024)</p>
+                            </div>
+                        </div>
+
+                        <div class="papers-section">
+                            <h3>Working Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.nber.org/papers/w33033" target="_blank">Theorizing with Large Language Models</a></h4>
+                                <p class="authors">Matteo Tranchero, Cecil-Francis Brenninkmeijer, Arul Murugan, and Abhishek Nagaraj</p>
+                                <p class="status">Revise and Resubmit</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://www.abhishekn.com/publications-all/gabe-llm-psh9l" target="_blank">Cloze Encounters: The Impact of Pirated Data Access on LLM Performance</a></h4>
+                                <p class="authors">Abhishek Nagaraj and Stella Jia</p>
+                                <p class="status">Working Paper</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme 3: Digital Platforms and Online Communities -->
+                <div class="research-theme">
+                    <h2 class="theme-header" onclick="toggleTheme(this)">Digital Platforms and Online Communities <span class="toggle-icon">+</span></h2>
+                    <p class="theme-description">Our research in this domain examines how digital platforms and online communities facilitate knowledge sharing, collaboration, and innovation processes. We investigate the mechanisms through which platforms enable collective knowledge production, studying cases like Wikipedia, OpenStreetMap, and crowdsourcing platforms. Our work explores how platform design features, incentive structures, and community governance affect participation and knowledge quality. We analyze the impact of AI technologies on these platforms, examining how automated systems change the dynamics of human collaboration and the nature of work performed on crowdsourcing platforms.</p>
+                    <div class="theme-content" style="display: none;">
+                        <div class="papers-section">
+                            <h3>Published Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.nber.org/papers/w30810" target="_blank">Getting on the Map: The Impact of Online Listings on Business Performance</a></h4>
+                                <p class="authors">Abhishek Nagaraj, Michael Luca, and Gauri Subramani</p>
+                                <p class="journal">Management Science (forthcoming)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://pubsonline.informs.org/doi/10.1287/stsc.2022.0125" target="_blank">The Divergent Effect of Competition on Platforms: Deterring Recruits, Motivating Converts</a></h4>
+                                <p class="authors">Abhishek Nagaraj and Henning Piezunka</p>
+                                <p class="journal">Strategy Science (2023)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3764" target="_blank">Information Seeding and Knowledge Production in Online Communities: Evidence from OpenStreetMap</a></h4>
+                                <p class="authors">Abhishek Nagaraj</p>
+                                <p class="journal">Management Science (2021)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://www.abhishekn.com/publications-all/social-learning-in-the-covid-19-pandemic-community-establishments-closure-decisions-follow-those-of-nearby-chain-establishments" target="_blank">Social Influence in the COVID-19 Pandemic: Community Establishments' Closure Decisions Follow Those of Nearby Chain Establishments</a></h4>
+                                <p class="authors">Abhishek Nagaraj, Mathijs de Vaan, Saqib Mumtaz, and Sameer Srivastava</p>
+                                <p class="journal">Management Science (2021)</p>
+                            </div>
+                        </div>
+
+                        <div class="papers-section">
+                            <h3>Working Papers</h3>
+                            <div class="publication">
+                                <h4>The Impact of AI on Crowdsourcing</h4>
+                                <p class="authors">Abhishek Nagaraj, Srikanth Prasad, and Eunae Yoo</p>
+                                <p class="status">Ongoing Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme 4: Innovation Mapping and Geography -->
+                <div class="research-theme">
+                    <h2 class="theme-header" onclick="toggleTheme(this)">Innovation Mapping and Geography <span class="toggle-icon">+</span></h2>
+                    <p class="theme-description">This research stream investigates the spatial dimensions of innovation and knowledge creation, examining how geographic factors influence research productivity, collaboration patterns, and technological development. We study the role of location-based resources, regional innovation ecosystems, and spatial clustering in driving innovation outcomes. Our work analyzes how physical proximity affects knowledge spillovers, the formation of innovation networks, and the concentration of innovative activities in specific regions. We also examine how digital technologies and data infrastructure can reshape geographic advantages in innovation, studying cases where satellite data, mapping technologies, and location-based services have democratized access to geographic information and enabled new forms of spatial analysis.</p>
+                    <div class="theme-content" style="display: none;">
+                        <div class="papers-section">
+                            <h3>Published Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.abhishekn.com/publications-all/geographic-bias-management" target="_blank">Geographic Inequality in Management Research</a></h4>
+                                <p class="authors">Abhishek Nagaraj and Hongyu Yao</p>
+                                <p class="journal">Research in the Sociology of Organizations (forthcoming)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3878" target="_blank">The Private Impact of Public Data: Landsat Satellite Maps Increased Gold Discoveries and Encouraged Entry</a></h4>
+                                <p class="authors">Abhishek Nagaraj</p>
+                                <p class="journal">Management Science (2022)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://www.aeaweb.org/articles?id=10.1257%2Fjep.34.1.196" target="_blank">The Economics of Maps</a></h4>
+                                <p class="authors">Abhishek Nagaraj and Scott Stern</p>
+                                <p class="journal">Journal of Economic Perspectives (2020)</p>
+                            </div>
+                        </div>
+
+                        <div class="papers-section">
+                            <h3>Working Papers</h3>
+                            <div class="publication">
+                                <h4>The Geography of Science</h4>
+                                <p class="authors">Abhishek Nagaraj and Hongyu Yao</p>
+                                <p class="status">Ongoing Project</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4>300 Years of British Patents</h4>
+                                <p class="authors">Enrico Berkes, Michael Chen, and Matteo Tranchero</p>
+                                <p class="status">Revise and Resubmit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme 5: Intellectual Property and Copyright -->
+                <div class="research-theme">
+                    <h2 class="theme-header" onclick="toggleTheme(this)">Intellectual Property and Copyright <span class="toggle-icon">+</span></h2>
+                    <p class="theme-description">Our research in this area examines how intellectual property rights, copyright laws, and legal frameworks shape innovation processes, creativity, and the diffusion of knowledge across society. We investigate the complex balance between providing incentives for innovation through exclusive rights and ensuring broad access to knowledge for cumulative innovation and social benefit. Our work analyzes the effects of copyright protection on creative reuse, studying how digitization and new technologies challenge traditional IP frameworks. We examine patent systems across different historical periods and countries to understand how IP institutions evolve and affect innovation patterns. This research stream also explores the intersection of AI technologies with IP law, investigating questions around AI-generated content, data rights, and the ownership of knowledge produced by machine learning systems.</p>
+                    <div class="theme-content" style="display: none;">
+                        <div class="papers-section">
+                            <h3>Published Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.aeaweb.org/articles?id=10.1257/pol.20210702" target="_blank">Digitization and the Demand for Physical Works: Evidence from the Google Books Project</a></h4>
+                                <p class="authors">Abhishek Nagaraj and Imke Reimers</p>
+                                <p class="journal">American Economic Journal: Policy (2023)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2810761" target="_blank">Does Copyright Affect Reuse? Evidence from Google Books and Wikipedia</a></h4>
+                                <p class="authors">Abhishek Nagaraj</p>
+                                <p class="journal">Management Science (2018)</p>
+                            </div>
+                        </div>
+
+                        <div class="papers-section">
+                            <h3>Working Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3464483" target="_blank">Patterns of innovation during the Industrial Revolution: A reappraisal using a composite indicator of patent quality</a></h4>
+                                <p class="authors">Alessandro Nuvolari, Valentina Tartari, and Matteo Tranchero</p>
+                                <p class="journal">Explorations in Economic History (2021)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Theme 6: Pharmaceutical and Health Innovation -->
+                <div class="research-theme">
+                    <h2 class="theme-header" onclick="toggleTheme(this)">Pharmaceutical and Health Innovation <span class="toggle-icon">+</span></h2>
+                    <p class="theme-description">This research stream focuses on understanding how data-driven approaches are transforming pharmaceutical innovation, drug discovery processes, and health research methodologies. We examine how large-scale biomedical datasets, genomic information, and computational tools are reshaping the landscape of medical innovation. Our work investigates the role of data availability in directing research attention, studying how access to different types of biomedical data influences which diseases receive research focus and which therapeutic approaches are pursued. We analyze the impact of data-driven search strategies on scientific discovery, examining cases where big data approaches have led to unexpected insights or novel therapeutic targets. This research also explores the organizational and strategic aspects of pharmaceutical innovation, including how firms respond to data quality issues, how venture capital influences experimental approaches in drug development, and how regulatory frameworks adapt to data-intensive innovation processes.</p>
+                    <div class="theme-content" style="display: none;">
+                        <div class="papers-section">
+                            <h3>Published Papers</h3>
+                            <div class="publication">
+                                <h4><a href="https://www.matteotranchero.com/pdf/Diamondsintherough_Tranchero_Dec2024.pdf" target="_blank">Finding Diamonds in the Rough: Data-Driven Opportunities and Pharmaceutical Innovation</a></h4>
+                                <p class="authors">Matteo Tranchero</p>
+                                <p class="status">Revise and Resubmit</p>
+                                <p class="awards">Winner: TIM Best Paper Award, Academy of Management (2024)</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4><a href="https://www.matteotranchero.com/pdf/Data_Driven_Search_May2025.pdf" target="_blank">Data-Driven Search and the Birth of Theory: Evidence from Genome-Wide Association Studies</a></h4>
+                                <p class="authors">Matteo Tranchero</p>
+                                <p class="status">Revise and Resubmit</p>
+                            </div>
+
+                            <div class="publication">
+                                <h4>Misleading Science Maps: Firm Responses to Data Malpractice in Alzheimer's Research</h4>
+                                <p class="authors">Matteo Tranchero, Christian Fons-Rosen, and Lee Fleming</p>
+                                <p class="status">Working Paper</p>
+                            </div>
+                        </div>
+
+                        <div class="papers-section">
+                            <h3>Working Papers</h3>
+                            <div class="publication">
+                                <h4>The Impact of VC Investment on Entrepreneurial Experimentation: Evidence from Clinical Trials</h4>
+                                <p class="authors">Abhishek Nagaraj and Jennifer Kao</p>
+                                <p class="status">Ongoing Project</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>UC Berkeley (Haas)</h3>
+                    <p>Berkeley, CA 94720</p>
+                </div>
+                <div class="footer__section">
+                    <h3>University of Pennsylvania (Wharton)</h3>
+                    <p>Philadelphia, PA 19104</p>
+                </div>
+                <div class="footer__section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:data-innovation-lab@berkeley.edu">data-innovation-lab@berkeley.edu</a></p>
+                </div>
+            </div>
+            <p>&copy; 2024 Data Innovation and AI Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

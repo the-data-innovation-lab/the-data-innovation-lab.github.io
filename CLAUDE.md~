@@ -1,0 +1,55 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This is a research lab website built as a static site. The project structure follows a simple HTML/CSS/JavaScript approach for a professional academic website.
+
+## Architecture
+
+The website is organized as a multi-page static site with the following core pages:
+- Home page (index.html) - Lab overview and introduction
+- Research page - Current projects and research areas
+- Team page - Lab members, faculty, and collaborators
+- Publications page - Academic papers and outputs
+- Contact page - Location and contact information
+
+The site uses:
+- Semantic HTML5 structure
+- Responsive CSS Grid/Flexbox layouts
+- Vanilla JavaScript for interactive elements
+- Mobile-first responsive design approach
+
+## Development Commands
+
+Since this is a static site, development is straightforward:
+- Open `index.html` directly in browser for local preview
+- Use a local server for more accurate testing: `python -m http.server 8000`
+- For live reload during development, consider using Live Server extension or similar tools
+
+## Code Organization
+
+- Root level contains main pages (index.html, research.html, etc.)
+- `/css/` directory for stylesheets
+- `/js/` directory for JavaScript files
+- `/images/` directory for media assets
+- `/assets/` directory for downloadable resources (PDFs, papers, etc.)
+
+## Design Patterns
+
+- Use consistent navigation across all pages
+- Maintain academic/professional visual hierarchy
+- Ensure accessibility with proper semantic markup and alt text
+- Keep mobile responsiveness as primary consideration
+- Follow consistent naming conventions for CSS classes using BEM methodology where applicable
+
+## Deployment
+
+This static site can be deployed to:
+- GitHub Pages (recommended for academic sites)
+- Netlify
+- Vercel
+- Traditional web hosting
+
+The repository is set up for easy GitHub Pages deployment from the main branch.
