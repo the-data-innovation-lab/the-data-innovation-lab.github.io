@@ -54,14 +54,30 @@ document.addEventListener('DOMContentLoaded', function() {
             link.classList.remove('nav__link--active');
         }
     });
+
+    // Initialize carousel
+    initializeCarousel();
 });
 
 // Photo Carousel functionality
 let currentSlideIndex = 0;
-const slides = document.querySelectorAll('.carousel-slide');
-const dots = document.querySelectorAll('.carousel-dot');
+let slides, dots, carouselInterval;
+
+function initializeCarousel() {
+    slides = document.querySelectorAll('.carousel-slide');
+    dots = document.querySelectorAll('.carousel-dot');
+
+    if (slides.length > 0 && dots.length > 0) {
+        // Auto-advance carousel every 5 seconds
+        carouselInterval = setInterval(() => {
+            changeSlide(1);
+        }, 5000);
+    }
+}
 
 function showSlide(index) {
+    if (!slides || !dots) return;
+
     // Hide all slides
     slides.forEach(slide => slide.classList.remove('active'));
     dots.forEach(dot => dot.classList.remove('active'));
@@ -76,6 +92,8 @@ function showSlide(index) {
 }
 
 function changeSlide(direction) {
+    if (!slides) return;
+
     currentSlideIndex += direction;
 
     if (currentSlideIndex >= slides.length) {
@@ -90,13 +108,6 @@ function changeSlide(direction) {
 function currentSlide(index) {
     currentSlideIndex = index - 1;
     showSlide(currentSlideIndex);
-}
-
-// Auto-advance carousel every 5 seconds
-if (slides.length > 0) {
-    setInterval(() => {
-        changeSlide(1);
-    }, 5000);
 }
 
 // Research theme toggle functionality
